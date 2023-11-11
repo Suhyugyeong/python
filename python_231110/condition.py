@@ -14,6 +14,16 @@ print(bool("파이선"))
 print(bool(-5))
 print(bool(0.025))
 print(bool(" "))
-print(bool(""))
+print(bool(""))#얘만 false임
 print(bool("누가 쉽대?"))
 print(bool(78))
+
+age = int(input("나이를 입력하세요.\n"))
+if age  >= 20:
+    print("입장 가능한 연령입니다.")
+elif age >= 15:
+    print("제한된 입장이 가능합니다")
+else : 
+    print("입장이 불가합니다.")
+    
+
