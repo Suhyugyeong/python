@@ -15,3 +15,4 @@ print(nums[start_idx] + nums[end_idx])
 
 # 방법4. 다 못 씀...
 nums = [int(i) for i in input().split()]
+print(nums.pop(0) + nums.pop())
