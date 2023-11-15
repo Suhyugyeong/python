@@ -1,16 +1,12 @@
 pl = []
 
 #끝에 요소를 추가
-
 pl.append("수능")
 pl.append("첫눈")
-pl.append(1115)
-# print(pl)
 
 #원하는 위치에 요소를 삽입
-
 pl.insert(2,"서브웨이")
-# print(pl)
+print(pl)
 
 #꺼내기
 # pl.pop()
@@ -60,5 +56,5 @@ print(len(pl))
 for i in pl:
     print(i)
     
-for i in range(len(pl)):
-    
+for i in range(len(pl)):    
+    print(i)
