@@ -6,8 +6,8 @@ for i in range(1, 100 + 1):
     
     #while문
     w_sum = 0
-    cnt = 1
-    while cnt <= 100:
-        w_sum += cnt
-        cnt += 1
+    j = 1
+    while j < 100 + 1:
+        w_sum += j
+        j += 1
         print(w_sum)
