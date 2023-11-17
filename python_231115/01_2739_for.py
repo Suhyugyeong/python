@@ -1,7 +1,7 @@
 # 구구단 for문
-dan_num = int(input())
+num = int(input())
 
-for j in range(1, 9 + 1) :
-    print(dan_num, "*", j, "=", dan_num * j)
-    print("%d * %d = %d" % (dan_num, j, dan_num * j))
-    print(f'{dan_num} * {j} = {dan_num * j}')
+for i in range(1, 9 + 1) :
+    # print(num, "*", i, "=", num * i)
+    # print("%d * %d = %d" % (num, i, num * i))
+    print(f'{num} * {i} = {num * i}')

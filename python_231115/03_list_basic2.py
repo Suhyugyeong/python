@@ -9,9 +9,10 @@ consonant = alpabet[1:4]
 #['b', 'c', 'd']
 
 #인덱싱은 요소를 반환, 슬라이싱은 리스트를 반환
+#인덱싱은 주로 하나를 뽑을 때, 슬라이싱은 범위를 뽑을 때..
 
 new_alpabet = [vow, consonant]
 #여러개인 vow 중 맨마지막을 가져옴..
 print(new_alpabet)
-
+#[['a', 'e'], ['b', 'c', 'd']]
 print(new_alpabet[0][1]) #e

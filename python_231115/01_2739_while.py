@@ -1,8 +1,6 @@
 # 구구단 while문
-dan_num = int(input())
-
-j = 1
-
-while j < 10:
-    print(f'{dan_num} * {j} = {dan_num * j}')
-    j += 1
+num = int(input())
+i = 1
+while i < 10:
+    print(f'{num} * {i} = {num * i}')
+    i += 1

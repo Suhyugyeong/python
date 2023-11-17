@@ -8,12 +8,15 @@ practice_list = [1, 2 , 3, "파이", "apple", ["가", "나", "다", "라"]]
 # practice_list[2] = 4, 8
 # print(practice_list)
 #(4,8)로 들어가고..
+#괄호를 생략하면 튜플로 인식한다..
 
 # practice_list[2] = [4, 8]
 # print(practice_list)
 #[4,8]로 들어감.. 
 
 practice_list[2:3] = 4, 8
+print(practice_list)
+practice_list[2:3] = [4, 8]
 print(practice_list)
 
 # practice_list[2:3] = [4,8]
