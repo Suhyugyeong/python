@@ -1,7 +1,7 @@
 import random
 import sys
 
-with open("rend_num10.txt", "w", encoding = "utf-8") as f:
+with open("rand_num10.txt", "w", encoding = "utf-8") as f:
     for i in range(10):
         f.write(f"{random.randint(1,10)}\n")
 #랜덤한 파일은 계속 바뀐다.
@@ -13,7 +13,6 @@ number = int(sys.stdin.readline())
 #system 모듈 안에 stdin 표준입력 
 #이걸 쓰려면 import sys를 해야합니다!!!!
 #대량의 입력을 처리할 때 사용
-
 
 #파일을 다시 읽어온다.
 def find_num(num):
