@@ -9,7 +9,9 @@ try:
         print("역시 파이썬은 흥미로워요~!")
     elif select == 2:
         raise MyException
+    #2를 입력하면 "예상치 못한 답변.."
     else:
         print("1번 또는 2번을 입력하세요")
+        #33입력하면 "1번 또는 2번"
 except Exception as e:
     print(e)

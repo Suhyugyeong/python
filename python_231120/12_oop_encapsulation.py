@@ -1,3 +1,5 @@
+#만들어둔 shape 모듈을 사용하여 사각형의 둘레 구하기
+
 import module.shape as s
 
 rectangle1 = s.Rectangle(3, 2)
