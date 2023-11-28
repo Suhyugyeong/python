@@ -1,3 +1,4 @@
+#구조분해할당
 hong_info = ['홍길동', 20]
 name, age = hong_info
 print(name, age)

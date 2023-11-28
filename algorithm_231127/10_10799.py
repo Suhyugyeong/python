@@ -1,3 +1,5 @@
+#https://www.acmicpc.net/problem/10799
+
 import sys
 
 pipe = sys.stdin.readline().rstrip() # ()((()()))(()(()))
@@ -8,9 +10,9 @@ for i in range(len(pipe)):
     # 여는 괄호를 만나면 스택에 ( 를 추가
     if pipe[i] == '(':
         stack.append('(')
-    # 닫는 괄호를 만나면, stack.pop()
     else:
         stack.pop()
+        # 닫는 괄호를 만나면, stack.pop()
         # 만약 닫는 괄호 앞에가 여는 괄호라면 (레이저!) -> result에 스택의 길이를 더해준다.
         if pipe[i-1] == '(':
             result += len(stack)
