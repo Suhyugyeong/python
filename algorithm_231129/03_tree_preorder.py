@@ -1,3 +1,4 @@
+#전위순회
 class Node:
     def __init__(self, data, left, right):
         self.data = data
@@ -24,3 +25,4 @@ tree = {
 }
 
 preorder(tree['A'])
+#A B D H E C F G 
