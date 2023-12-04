@@ -28,10 +28,16 @@ def postorder(node):
     print(node.data, end = "")
 
 N = int(sys.stdin.readline())
+#트리의 노드수를 입력받기
 tree = {}
+#노드를 저장하기 위한 빈 딕셔너리 생성
+#각 노드의 이름을 키로 하고, 해당 노드 객체를 값으로 가짐..
 for i in range(N):
+    #N번만큼 돌려서 각 노드에 대한 정보를 딕셔너리에 저장
     tree_list = sys.stdin.readline().split()
+    #각 노드의 정보를 입력받기
     tree[tree_list[0]] = Node(tree_list[0], tree_list[1], tree_list[2])
+    #data, left, right순
 
 preorder(tree['A'])
 print()
