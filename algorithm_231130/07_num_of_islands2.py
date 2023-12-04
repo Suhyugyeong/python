@@ -1,3 +1,4 @@
+#이전 코드와 유사하지만 dfs 함수 내에서 상하좌우를 확인할 때 방향 벡터를 사용함
 class Solution:
     def num_islands(self, grid: list[list[str]]) -> int:
         def dfs(i, j):
@@ -5,8 +6,9 @@ class Solution:
             grid[i][j] = '2'
             # 상하좌우를 체크
             direction = [(i - 1, j), (i + 1, j), (i, j - 1), (i, j + 1)]
+            #상하좌우를 나타내는 방향 벡터를 리스트로 정의함
             # (상하좌우는 grid 범위 안에 있어야 하고, 1인 경우에는 찾아가서 0으로 변경)
-            for d_i, d_j in direction:
+            for d_i, d_j in direction: #방향 벡터를 순회하며 상하좌우를 확인
                 if d_i < 0 or d_i >= len(grid):
                     continue
                 if d_j < 0 or d_j >= len(grid[0]):
