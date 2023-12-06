@@ -33,7 +33,6 @@ def solution(survey, choices) -> str:
         # 점수가 5보다 크거나 같고 7보다 작거나 같으면 뒤에 문자를 키로 점수 저장
         elif 5 <= score <= 7:
             score_dict[v[1]] += score - 4
-    print(score_dict)
     
     character_info = [('R', 'T'), ('C', 'F'), ('J', 'M'), ('A', 'N')]
     for i in character_info:
